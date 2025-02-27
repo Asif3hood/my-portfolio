@@ -14,7 +14,7 @@ const Navbar = () => {
         autoClose={3000}
       />
 
-      <div className="w-full h-[65px] fixed top-0 shadow shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[9999] px-5">
+      <div className="w-full h-[65px] fixed top-0 shadow shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[9999] px-10">
         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
           <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
             <Image
@@ -22,7 +22,7 @@ const Navbar = () => {
               alt="logo"
               width={90}
               height={90}
-              className="h-12 w-auto sm:h-14 md:h-16 lg:h-20 cursor-pointer hover:animate-slowspin"
+              className="w-auto cursor-pointer hover:animate-slowspin"
             />
 
             <span className="font-bold ml-[10px] hidden md:block text-gray-300">
