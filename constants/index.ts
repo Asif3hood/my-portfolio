@@ -93,12 +93,6 @@ export const Skill_data = [
       link: "https://www.instagram.com/legend_asif_hood/",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
-      link: "https://www.facebook.com/asif.hood.9",
-
-    },
-    {
       name: "Instagram",
       src: "/discord.svg",
       link: "https://discord.com/users/ASIF_HOOD#0786",
