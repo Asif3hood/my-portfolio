@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="w-full h-[65px] fixed top-0 shadow shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-[9999] px-5 md:px-20">
         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
           {/* Logo */}
-          <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
+          <a href="#about-me" className="h-auto w-auto flex flex-row items-center hidden md:flex">
             <Image
               src="/NavLogo.png"
               alt="logo"
