@@ -123,7 +123,7 @@ export const Skill_data = [
     },
     {
       skill_name: "Java",
-      Image: "/java-01.png",
+      Image: "/jQuery.png",
       width: 80,
       height: 80,
     },
