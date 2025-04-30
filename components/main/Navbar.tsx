@@ -50,15 +50,22 @@ const Navbar = () => {
           {/* Social Icons */}
           <div className="flex flex-row gap-5 hidden md:flex">
             {Socials.map((social) => (
-              <Image
-                src={social.src}
-                alt={social.name}
-                key={social.name}
-                width={24}
-                height={24}
-              />
+              <a 
+                key={social.name} 
+                href={social.link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={social.src}
+                  alt={social.name}
+                  width={24}
+                  height={24}
+                />
+              </a>
             ))}
           </div>
+
         </div>
       </div>
     </>
